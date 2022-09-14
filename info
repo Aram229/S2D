@@ -1,0 +1,134 @@
+Host WNIEFS0003,
+Server=Drukarz,
+Database=Drukarz,
+ 
+User=Company,
+Password: 605325249-001
+ 
+Map to www folder
+---------------
+  \\wniefs0003\c$
+  AALadmin Aram20205
+  
+  
+Map Andzej folder:
+---------------------
+ \\WNIEFS1001\group\IT \AJA_projects 
+ 
+ 
+--------------------------- 
+Servername Ticket Printing:    server1022.portola.eu.com 
+Für Remore Access (MSTSC): Username:  pcsetup 
+PW: %Portola456* 
+BItt enicht abmelden sondern Fenster einfdach schliessen... 
+server1022.portola.eu.com\SQLEXPRESS
+
+Printing tool:
+http://server1022.portola.eu.com/silganwm/labels.html?plant=7510
+
+ZPL Online Viewer:  http://labelary.com/viewer.html
+
+Access to file server: 
+File access:   \\server1022.portola.eu.com\c$
+Username:   portolaeucom\pcsetup 
+
+
+GITHUB Script for the website of printing tool
+https://gist.github.com/elsewhat/2507422
+Binding elements in ui5:
+-----------------------
+https://sapui5.hana.ondemand.com/1.32.9/docs/guide/91f05e8b6f4d1014b6dd926db0e91070.html
+
+-----------------
+ 
+ MapexTV Preview
+ ---------------
+ \\wniefs1001\Group\Deployment\VNC
+ 10.130.40.78
+ ubu4TV(vnc)
+ 
+ ---------------------
+ 
+ Krzysztof API Issue...
+ --------------------
+  \\wniews0114\c$ 
+  
+  \\wniews0114\c$\SapwrapPL\logs
+  
+  http://wniews0114.whitecap.com/foliarka/ 
+  
+  I see that since I have corrected a tape and a ribbon in label printer there are no errors 
+  
+  error example in: WRP20200525.log 
+					WRP20200526.log 
+					
+					
+	There is a service on WNIEWS0114 which books palettes to SAP.
+	Every booked palette is logged in log file in c:\SapwrapPL\logs.
+	In attached file you can find one of such log files.
+	
+	
+	Almost every day we have 1 or more this kind of errors and it is always the matter of two zeroes.
+	You can review log files and find other examples.
+
+	We have investigated it and found that probably  sometimes  a scanner reads a barcode wrongly and a booking program accepts it.
+	The problem is that when we scan this label again it shows a correct value in notepad. We can't repeat the misreading even on the same labels.
+	I suppose that the barcode on the label (printed with Andrzej's application) is to wide and margins in both sides of the barcode are
+	too narrow that in some circumstances (a light, a angle of scanning, a background  ...) can cause this kind of misreading. 
+	I think that  Andrzej probably created the barcode so wide because of some reason. Maybe Unilogo had problem with  the smaller barcodes.
+
+	We want to eliminate this kind of errors.
+	Our proposition is to create a display which immediately shows the last booked palettes in SAP. An operator will be able to react and create a cancellation of this palette in SAP and book it correctly again. It will also help operators to check if the label itself is correct and sicked to a right palette. (I know that we have labels on the boxes and operators can check it but...)
+	Maybe there is some way to solve this problem on the program's code level.
+	---------------
+	I see that since I have corrected a tape and a ribbon in label printer there are no errors 
+	
+----------------------------
+
+Slawomir Issue
+--------------
+I've just finished reading the request you sent me...I have a question 
+as I see in the powerpoint file which include a representation of new future page .....
+Should the table in the new site just contain the CAP IMAGE and the other info coming from Blue Cells as shown in PP?
+
+Host WNIEAP0001, 
+Server=apdb,
+Database=apdb,
+User=Company, 
+Password: Selkod-001 
+##################
+http://localhost/mapTV/mapextv/php/panel1_json.php?search=QP109
+
+WMPF
+-----
+5680
+1539
+
+Drukarz saving PDF issue
+------------------------
+On wniefs0007 PDF server (For Drukarz)
+
+Anroid APP-stock take
+----------
+User: 591
+pass: 9020
+
+
+MINIRAW
+-------
+wnievs0001\swcpa
+Fr0nt0n!1 
+
+
+order CZ
+30003051
+
+Ar@m217647 
+
+HOME PAGE
+https://dw-training.eu.qlikcloud.com/
+
+
+
+
+
